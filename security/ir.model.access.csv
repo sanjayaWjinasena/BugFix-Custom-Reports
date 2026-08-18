@@ -3,3 +3,4 @@ access_x_custom_reports_user,x_custom_reports user access,model_x_custom_reports
 access_x_custom_reports_stages_user,x_custom_reports_stages user access,model_x_custom_reports_stages,base.group_user,1,1,1,1
 access_x_custom_reports_tags_user,x_custom_reports_tags user access,model_x_custom_reports_tags,base.group_user,1,1,1,1
 access_x_configuration_user,x_configuration user access,model_x_configuration,base.group_user,1,1,1,1
+access_x_custom_reports_stage_user,x_custom_reports_stage user access,model_x_custom_reports_stage,base.group_user,1,1,1,1

@@ -23,4 +23,4 @@ class XCustomReports(models.Model):
     x_studio_sequence = fields.Integer(string='Sequence')
     x_studio_stage_id = fields.Many2one('x_custom_reports_stage', string='Stage')
     x_studio_user_id = fields.Many2one('res.users', string='Responsible')
-    x_studio_value = fields.Monetary(string='Value')
+    x_studio_value = fields.Float(string='Value')  # was Monetary (no currency_field)
