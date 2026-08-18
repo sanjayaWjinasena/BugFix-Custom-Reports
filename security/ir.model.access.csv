@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_x_custom_reports_user,x_custom_reports user access,model_x_custom_reports,base.group_user,1,1,1,1
+access_x_custom_reports_stages_user,x_custom_reports_stages user access,model_x_custom_reports_stages,base.group_user,1,1,1,1
+access_x_custom_reports_tags_user,x_custom_reports_tags user access,model_x_custom_reports_tags,base.group_user,1,1,1,1
+access_x_configuration_user,x_configuration user access,model_x_configuration,base.group_user,1,1,1,1

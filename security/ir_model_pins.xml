@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+  <record id="model_x_custom_reports" model="ir.model"><field name="name">x_custom_reports</field><field name="model">x_custom_reports</field></record>
+  <record id="model_x_custom_reports_stages" model="ir.model"><field name="name">x_custom_reports_stages</field><field name="model">x_custom_reports_stages</field></record>
+  <record id="model_x_custom_reports_tags" model="ir.model"><field name="name">x_custom_reports_tags</field><field name="model">x_custom_reports_tags</field></record>
+  <record id="model_x_configuration" model="ir.model"><field name="name">x_configuration</field><field name="model">x_configuration</field></record>
+</odoo>
