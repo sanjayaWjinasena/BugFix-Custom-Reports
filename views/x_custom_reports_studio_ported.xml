@@ -3,6 +3,7 @@
   <record id="ported_default_form_view_fo_dda3da64_0fb4_40e3_aa0b_39b61094f559" model="ir.ui.view">
     <field name="name">Default form view for x_custom_reports</field>
     <field name="model">x_custom_reports</field>
+    <field name="key">studio_customization.default_form_view_fo_dda3da64-0fb4-40e3-aa0b-39b61094f559</field>
     <field name="type">form</field>
     <field name="priority">16</field>
     <field name="mode">primary</field>
@@ -54,6 +55,7 @@
   <record id="ported_odoo_studio_default__e1a31604_bc84_4ef6_ae6b_f7fc26ae7026" model="ir.ui.view">
     <field name="name">Odoo Studio: Default form view for x_custom_reports customization</field>
     <field name="model">x_custom_reports</field>
+    <field name="key">studio_customization.odoo_studio_default__e1a31604-bc84-4ef6-ae6b-f7fc26ae7026</field>
     <field name="type">form</field>
     <field name="priority">99</field>
     <field name="mode">extension</field>

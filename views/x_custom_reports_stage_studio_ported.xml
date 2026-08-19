@@ -3,6 +3,7 @@
   <record id="ported_default_form_view_fo_ee756918_55ce_42ae_af5c_73e42622628a" model="ir.ui.view">
     <field name="name">Default form view for x_custom_reports_stage</field>
     <field name="model">x_custom_reports_stage</field>
+    <field name="key">studio_customization.default_form_view_fo_ee756918-55ce-42ae-af5c-73e42622628a</field>
     <field name="type">form</field>
     <field name="priority">16</field>
     <field name="mode">primary</field>
