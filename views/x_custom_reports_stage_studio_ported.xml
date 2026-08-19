@@ -24,4 +24,31 @@
       </form>
     </field>
   </record>
+  <record id="ported_default_list_view_fo_65105bf4_9925_416e_9051_7d1b15c07a51" model="ir.ui.view">
+    <field name="name">Default list view for x_custom_reports_stage</field>
+    <field name="model">x_custom_reports_stage</field>
+    <field name="key">studio_customization.default_list_view_fo_65105bf4-9925-416e-9051-7d1b15c07a51</field>
+    <field name="type">tree</field>
+    <field name="priority">16</field>
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+      <tree editable="bottom">
+        <field name="x_studio_sequence" widget="handle"/>
+        <field name="x_name"/>
+      </tree>
+    </field>
+  </record>
+  <record id="ported_default_search_view__b90315d7_c863_422c_9d1e_4486839aeb22" model="ir.ui.view">
+    <field name="name">Default search view for x_custom_reports_stage</field>
+    <field name="model">x_custom_reports_stage</field>
+    <field name="key">studio_customization.default_search_view__b90315d7-c863-422c-9d1e-4486839aeb22</field>
+    <field name="type">search</field>
+    <field name="priority">16</field>
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="x_name"/>
+      </search>
+    </field>
+  </record>
 </odoo>
