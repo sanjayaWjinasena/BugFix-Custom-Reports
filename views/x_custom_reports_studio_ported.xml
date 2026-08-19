@@ -62,8 +62,8 @@
     <field name="inherit_id" ref="BugFix-Custom-Reports.ported_default_form_view_fo_dda3da64_0fb4_40e3_aa0b_39b61094f559"/>
     <field name="arch" type="xml">
       <data>
-        <xpath expr="//field[@name='x_studio_image']" position="replace"/>
-        <xpath expr="//field[@name='x_studio_kanban_state']" position="replace"/>
+        
+        
       </data>
     </field>
   </record>
