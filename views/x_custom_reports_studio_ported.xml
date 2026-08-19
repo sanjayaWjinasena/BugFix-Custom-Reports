@@ -34,24 +34,20 @@
               <field name="x_studio_user_id" widget="many2one_avatar_user"/>
               <field name="x_studio_currency_id" invisible="1"/>
               <field name="x_studio_value"/>
-              <field name="x_studio_tag_ids" widget="many2many_tags" options="{'color_field': 'x_color'}"/>
+              
               <field name="x_studio_company_id" groups="base.group_multi_company" options="{'no_create': True}"/>
             </group>
           </group>
           <group>
-            <field name="x_studio_notes" placeholder="Type down your notes here..." nolabel="1" colspan="2"/>
+            
           </group>
           <notebook>
             <page string="Details" name="lines">
-              <field name="x_custom_reports_line_ids_7ee39"/>
+              
             </page>
           </notebook>
         </sheet>
-        <div class="oe_chatter" name="oe_chatter">
-          <field name="message_follower_ids"/>
-          <field name="message_ids"/>
-          <field name="activity_ids"/>
-        </div>
+        
       </form>
     </field>
   </record>
