@@ -8,7 +8,7 @@
     'license': 'LGPL-3',
     # Do NOT depend on studio_customization — Odoo SH does not ship a manifest for it.
     'depends': ['base_setup'],
-    'data': ['security/ir.model.access.csv', 'security/ir_model_pins.xml'
+    'data': ['security/ir.model.access.csv', 'security/ir_model_pins.xml',
         'data/menus_jinasena_reports.xml',
     ],
     'installable': True,
