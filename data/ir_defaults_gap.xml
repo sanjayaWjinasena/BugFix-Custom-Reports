@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BugFix-Custom-Reports: 11 ir.default records routed from Phase D2 sweep -->
+<odoo>
+  <data noupdate="1">
+
+    <record id="default_235_x_configuration_x_active" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__x_active"/>
+      <field name="json_value">true</field>
+    </record>
+
+    <record id="default_236_x_configuration_x_studio_sequence" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__x_studio_sequence"/>
+      <field name="json_value">10</field>
+    </record>
+
+    <record id="default_587_x_custom_reports_x_active" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_active"/>
+      <field name="json_value">true</field>
+    </record>
+
+    <record id="default_588_x_custom_reports_x_studio_company_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_company_id"/>
+      <field name="json_value">1</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jinasena_pvt_ltd"/>
+    </record>
+
+    <record id="default_589_x_custom_reports_x_studio_company_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_company_id"/>
+      <field name="json_value">2</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jinasena_agricultural_machinery"/>
+    </record>
+
+    <record id="default_590_x_custom_reports_x_studio_company_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_company_id"/>
+      <field name="json_value">3</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jltd"/>
+    </record>
+
+    <record id="default_591_x_custom_reports_x_studio_currency_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_currency_id"/>
+      <field name="json_value">145</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jinasena_pvt_ltd"/>
+    </record>
+
+    <record id="default_592_x_custom_reports_x_studio_currency_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_currency_id"/>
+      <field name="json_value">145</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jinasena_agricultural_machinery"/>
+    </record>
+
+    <record id="default_593_x_custom_reports_x_studio_currency_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_currency_id"/>
+      <field name="json_value">145</field>
+      <field name="company_id" ref="seed_master_data_and_settings.company_jltd"/>
+    </record>
+
+    <record id="default_594_x_custom_reports_x_studio_sequence" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_sequence"/>
+      <field name="json_value">10</field>
+    </record>
+
+    <record id="default_595_x_custom_reports_x_studio_stage_id" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_custom_reports__x_studio_stage_id"/>
+      <field name="json_value">1</field>
+    </record>
+
+  </data>
+</odoo>

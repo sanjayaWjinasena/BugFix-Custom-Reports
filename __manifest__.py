@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'BugFix - Custom - Reports',
-    'version': '17.0.0.0.5',
+    'version': '17.0.0.0.6',
     'summary': 'Studio custom-reports config models (x_custom_reports, tags, stages, x_configuration)',
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
     'category': 'Extra Tools',
@@ -12,6 +12,7 @@
         'data/menus_jinasena_reports.xml',
         'data/record_rules_gap.xml',
         'data/window_actions_gap.xml',
+        'data/ir_defaults_gap.xml',
     ],
     'installable': True,
     'auto_install': False,
