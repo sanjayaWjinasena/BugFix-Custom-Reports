@@ -4,3 +4,9 @@ access_x_custom_reports_stages_user,x_custom_reports_stages user access,model_x_
 access_x_custom_reports_tags_user,x_custom_reports_tags user access,model_x_custom_reports_tags,base.group_user,1,1,1,1
 access_x_configuration_user,x_configuration user access,model_x_configuration,base.group_user,1,1,1,1
 access_x_custom_reports_stage_user,x_custom_reports_stage user access,model_x_custom_reports_stage,base.group_user,1,1,1,1
+access_1432_configuration_group_user,Configuration group_user,BugFix-Custom-Reports.model_x_configuration,base.group_user,0,0,0,0
+access_1431_configuration_group_system,Configuration group_system,BugFix-Custom-Reports.model_x_configuration,base.group_system,1,1,1,1
+access_8260_custom_reports_group_user,Custom Reports group_user,BugFix-Custom-Reports.model_x_custom_reports,base.group_user,1,1,1,0
+access_8259_custom_reports_group_system,Custom Reports group_system,BugFix-Custom-Reports.model_x_custom_reports,base.group_system,1,1,1,1
+access_8264_custom_reports_stages_group_user,Custom Reports Stages group_user,BugFix-Custom-Reports.model_x_custom_reports_stage,base.group_user,1,1,1,0
+access_8263_custom_reports_stages_group_system,Custom Reports Stages group_system,BugFix-Custom-Reports.model_x_custom_reports_stage,base.group_system,1,1,1,1
