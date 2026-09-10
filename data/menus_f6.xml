@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BugFix-Custom-Reports: Phase F6 - 2 menus -->
+<odoo>
+  <menuitem id="menu_f6_jinasena_custom_reports_stages" name="Jinasena Custom Reports Stages" parent="documents.Config" action="BugFix-Custom-Reports.act_window_3348_jinasena_custom_reports_stages"/>
+  <menuitem id="menu_f6_configuration" name="Configuration" parent="BugFix-Stock.menu_827_material_management" action="BugFix-Custom-Reports.act_window_1564_configuration" sequence="11"/>
+</odoo>
