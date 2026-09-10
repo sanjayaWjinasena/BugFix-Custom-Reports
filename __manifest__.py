@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'BugFix - Custom - Reports',
-    'version': '17.0.0.0.11',
+    'version': '17.0.0.0.12',
     'summary': 'Studio custom-reports config models (x_custom_reports, tags, stages, x_configuration)',
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
     'category': 'Extra Tools',
@@ -9,7 +9,7 @@
     # Do NOT depend on studio_customization — Odoo SH does not ship a manifest for it.
     'depends': ['base_setup', 'BugFix-Studio-Misc'],
     'data': [
-        'data/selections_f1.xml','security/ir.model.access.csv', 'security/ir_model_pins.xml',
+'security/ir.model.access.csv', 'security/ir_model_pins.xml',
         'data/menus_jinasena_reports.xml',
         'data/record_rules_gap.xml',
         'data/window_actions_gap.xml',
