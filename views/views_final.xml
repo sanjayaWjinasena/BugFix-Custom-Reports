@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BugFix-Custom-Reports: Views final - 1 remaining views -->
+<odoo>
+  <data>
+    <record id="view_final_x_custom_reports_odoo_studio_default_form_view_for_x_custom_reports_customiza" model="ir.ui.view">
+      <field name="name">Odoo Studio: Default form view for x_custom_reports customization</field>
+      <field name="model">x_custom_reports</field>
+      <field name="type">form</field>
+      <field name="priority">99</field>
+      <field name="inherit_id" ref="studio_customization.default_form_view_fo_dda3da64-0fb4-40e3-aa0b-39b61094f559"/>
+      <field name="mode">extension</field>
+      <field name="arch" type="xml">
+        <data>
+  <xpath expr="//field[@name='x_studio_image']" position="replace"/>
+  <xpath expr="//field[@name='x_studio_kanban_state']" position="replace"/>
+</data>
+      </field>
+    </record>
+
+  </data>
+</odoo>
