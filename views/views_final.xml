@@ -7,7 +7,7 @@
       <field name="model">x_custom_reports</field>
       <field name="type">form</field>
       <field name="priority">99</field>
-      <field name="inherit_id" ref="studio_customization.default_form_view_fo_dda3da64-0fb4-40e3-aa0b-39b61094f559"/>
+      <field name="inherit_id" ref="BugFix-Custom-Reports.view_8629_default_form_view_for_x_custom_reports_e"/>
       <field name="mode">extension</field>
       <field name="arch" type="xml">
         <data>
