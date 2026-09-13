@@ -4,6 +4,7 @@ from odoo import fields, models
 
 class XCustomReports(models.Model):
     _name = 'x_custom_reports'
+    _inherit = ['mail.activity.mixin']
     _description = 'Custom Reports'
 
     x_active = fields.Boolean(string='Active')
