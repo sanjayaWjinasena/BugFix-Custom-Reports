@@ -5,7 +5,7 @@ from odoo import fields, models
 
 class XCustomReportsStage(models.Model):
     _name = 'x_custom_reports_stage'
-    _description = 'X Custom Reports Stage'
+    _description = 'Custom Reports Stages'
 
     x_name = fields.Char(string='Stage Name')
     x_studio_sequence = fields.Integer(string='Sequence')
