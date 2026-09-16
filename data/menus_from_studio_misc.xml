@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Records moved from other companion modules to break install-time
+     dep cycles. This module installs AFTER the source module, so refs
+     resolve. See commit history for original locations. -->
+<odoo>
+  <data>
+  <menuitem id="menu_f6r2_test_app_05_x_configuration" name="x_configuration" parent="menu_f6r2_test_app_05" action="BugFix-Custom-Reports.act_window_2657_x_configuration" sequence="85"/>
+  <menuitem id="menu_f6r3_jinasena_reports_jinasena_custom_reports" name="Jinasena Custom Reports" parent="menu_f6r3_jinasena_reports" action="BugFix-Custom-Reports.act_window_3347_jinasena_custom_reports"/>
+  <menuitem id="menu_f6r3_jinasena_reports_configuration_jinasena_custom_reports_stage" name="Jinasena Custom Reports Stages" parent="menu_f6r3_jinasena_reports_configuration" action="BugFix-Custom-Reports.act_window_3348_jinasena_custom_reports_stages"/>
+  </data>
+</odoo>
