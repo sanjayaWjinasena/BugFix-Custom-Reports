@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : SubModule : Reporting : Custom Reports',
-    'version': '17.0.0.0.15',
+    'version': '17.0.0.0.16',
     'summary': 'Studio custom-reports config models (x_custom_reports, tags, stages, x_configuration)',
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
     'category': 'Extra Tools',
@@ -22,8 +22,7 @@
         'data/menus_jinasena_reports.xml',
         'data/menus_from_studio_misc.xml',
     ],
-    'post_init_hook': 'post_init_hook',
-    'installable': True,
+'installable': True,
     'auto_install': False,
     'application': True,
 }
