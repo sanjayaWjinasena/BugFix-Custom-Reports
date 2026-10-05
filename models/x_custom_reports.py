@@ -4,6 +4,7 @@ from odoo import fields, models
 
 class XCustomReports(models.Model):
     _name = 'x_custom_reports'
+    _rec_name = 'x_name'  # Clear-DB Studio model: records are named by x_name
     _inherit = ['mail.activity.mixin']
     _description = 'Custom Reports'
 
