@@ -1,0 +1,378 @@
+{
+"access_1431_configuration_group_system": {
+"ir.model.access": [
+[
+1431,
+"2022-02-15 10:03:04"
+]
+]
+},
+"access_1432_configuration_group_user": {
+"ir.model.access": [
+[
+1432,
+"2022-02-15 10:03:04"
+]
+]
+},
+"access_8259_custom_reports_group_system": {
+"ir.model.access": [
+[
+8259,
+"2025-10-21 09:48:26"
+]
+]
+},
+"access_8260_custom_reports_group_user": {
+"ir.model.access": [
+[
+8260,
+"2025-10-21 09:48:26"
+]
+]
+},
+"access_8263_custom_reports_stages_group_system": {
+"ir.model.access": [
+[
+8263,
+"2025-10-21 09:48:26"
+]
+]
+},
+"access_8264_custom_reports_stages_group_user": {
+"ir.model.access": [
+[
+8264,
+"2025-10-21 09:48:26"
+]
+]
+},
+"act_window_1564_configuration": {
+"ir.actions.act_window": [
+[
+1564,
+"2022-02-15 10:03:04"
+]
+]
+},
+"act_window_2657_x_configuration": {
+"ir.actions.act_window": [
+[
+2657,
+"2024-07-17 10:43:56"
+]
+]
+},
+"act_window_3347_jinasena_custom_reports": {
+"ir.actions.act_window": [
+[
+3347,
+"2025-10-21 09:48:26"
+]
+]
+},
+"act_window_3348_jinasena_custom_reports_stages": {
+"ir.actions.act_window": [
+[
+3348,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_235_x_configuration_x_active": {
+"ir.default": [
+[
+235,
+"2022-02-15 10:03:04"
+]
+]
+},
+"default_236_x_configuration_x_studio_sequence": {
+"ir.default": [
+[
+236,
+"2022-02-15 10:03:04"
+]
+]
+},
+"default_587_x_custom_reports_x_active": {
+"ir.default": [
+[
+587,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_588_x_custom_reports_x_studio_company_id": {
+"ir.default": [
+[
+588,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_589_x_custom_reports_x_studio_company_id": {
+"ir.default": [
+[
+589,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_590_x_custom_reports_x_studio_company_id": {
+"ir.default": [
+[
+590,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_591_x_custom_reports_x_studio_currency_id": {
+"ir.default": [
+[
+591,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_592_x_custom_reports_x_studio_currency_id": {
+"ir.default": [
+[
+592,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_593_x_custom_reports_x_studio_currency_id": {
+"ir.default": [
+[
+593,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_594_x_custom_reports_x_studio_sequence": {
+"ir.default": [
+[
+594,
+"2025-10-21 09:48:26"
+]
+]
+},
+"default_595_x_custom_reports_x_studio_stage_id": {
+"ir.default": [
+[
+595,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_1728_jinasena_reports": {
+"ir.ui.menu": [
+[
+1728,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_1729_jinasena_custom_reports": {
+"ir.ui.menu": [
+[
+1729,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_1730_configuration": {
+"ir.ui.menu": [
+[
+1730,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_1731_jinasena_custom_reports_stages": {
+"ir.ui.menu": [
+[
+1731,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_1732_jinasena_custom_reports_tags": {
+"ir.ui.menu": [
+[
+1732,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_f6_configuration": {
+"ir.ui.menu": [
+[
+829,
+"2022-02-15 10:03:04"
+]
+]
+},
+"menu_f6r2_test_app_05_x_configuration": {
+"ir.ui.menu": [
+[
+1282,
+"2024-07-17 10:43:56"
+]
+]
+},
+"menu_f6r3_jinasena_reports_configuration_jinasena_custom_reports_stage": {
+"ir.ui.menu": [
+[
+1731,
+"2025-10-21 09:48:26"
+]
+]
+},
+"menu_f6r3_jinasena_reports_jinasena_custom_reports": {
+"ir.ui.menu": [
+[
+1729,
+"2025-10-21 09:48:26"
+]
+]
+},
+"rule_880_custom_reports_multi_company": {
+"ir.rule": [
+[
+880,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_3246_default_list_view_for_x_configuration_e": {
+"ir.ui.view": [
+[
+3246,
+"2022-02-15 10:03:04"
+]
+]
+},
+"view_3247_default_form_view_for_x_configuration_e": {
+"ir.ui.view": [
+[
+3247,
+"2022-02-15 10:03:04"
+]
+]
+},
+"view_3248_default_search_view_for_x_configuration_e": {
+"ir.ui.view": [
+[
+3248,
+"2022-02-15 10:03:04"
+]
+]
+},
+"view_8628_default_list_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8628,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8629_default_form_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8629,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8630_default_search_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8630,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8631_default_calendar_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8631,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8632_default_gantt_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8632,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8633_default_kanban_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8633,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8634_default_map_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8634,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8635_default_pivot_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8635,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8636_default_graph_view_for_x_custom_reports_e": {
+"ir.ui.view": [
+[
+8636,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8640_default_list_view_for_x_custom_reports_stage_e": {
+"ir.ui.view": [
+[
+8640,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8641_default_form_view_for_x_custom_reports_stage_e": {
+"ir.ui.view": [
+[
+8641,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_8642_default_search_view_for_x_custom_reports_stage_e": {
+"ir.ui.view": [
+[
+8642,
+"2025-10-21 09:48:26"
+]
+]
+},
+"view_final_x_custom_reports_odoo_studio_default_form_view_for_x_custom_reports_customiza": {
+"ir.ui.view": [
+[
+8871,
+"2025-11-11 03:47:53"
+]
+]
+}
+}
