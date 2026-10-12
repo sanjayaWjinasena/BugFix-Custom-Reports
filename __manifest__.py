@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 {
+    # upgrade-testing branch: data files below are commented out - this branch installs functions only, no data is seeded.
     'name': 'Jinasena : SubModule : Reporting : Custom Reports',
     'version': '17.0.0.0.20',
     'summary': 'Studio custom-reports config models (x_custom_reports, tags, stages, x_configuration)',
@@ -13,7 +14,7 @@
         'security/ir.model.access.csv',
         'data/record_rules_gap.xml',
         'data/window_actions_gap.xml',
-        'data/ir_defaults_gap.xml',
+        # 'data/ir_defaults_gap.xml',  # upgrade-testing: data, not shipped
         'views/x_configuration_e_views.xml',
         'views/x_custom_reports_e_views.xml',
         'views/views_final.xml',
