@@ -14,10 +14,11 @@ Column data is preserved: the source module's pre-migrate drops its
 ir.model.data pointer so Odoo's end-of-load cleanup never unlinks the field;
 this module's reflection re-attaches the xmlid.
 """
+
 from odoo import fields, models
 
 
 class XCustomReportsLineC55e7(models.Model):
-    _inherit = 'x_custom_reports_line_c55e7'
+    _inherit = "x_custom_reports_line_c55e7"
 
-    x_custom_reports_id = fields.Many2one(comodel_name='x_custom_reports')
+    x_custom_reports_id = fields.Many2one(comodel_name="x_custom_reports")
