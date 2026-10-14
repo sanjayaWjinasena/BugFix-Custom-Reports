@@ -24,7 +24,5 @@
         'data/menus_from_studio_misc.xml',
     ],
     'post_init_hook': 'post_init_hook',
-'installable': True,
-    'auto_install': False,
     'application': True,
 }
