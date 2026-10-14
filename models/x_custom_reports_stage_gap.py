@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-from odoo import models, fields
+from odoo import fields, models
+
 
 class XCustomReportsStageGap(models.Model):
     _inherit = 'x_custom_reports_stage'

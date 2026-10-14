@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Sentinel declaration for x_custom_reports_stage so cross-references resolve."""
 from odoo import fields, models
 

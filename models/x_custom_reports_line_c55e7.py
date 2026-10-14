@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """x_custom_reports_line_c55e7.x_custom_reports_id, moved here from
 BugFix-Studio-Misc (v0.0.112) in v0.0.18.
 
@@ -21,4 +20,4 @@ from odoo import fields, models
 class XCustomReportsLineC55e7(models.Model):
     _inherit = 'x_custom_reports_line_c55e7'
 
-    x_custom_reports_id = fields.Many2one(comodel_name='x_custom_reports', string='X Custom Reports')
+    x_custom_reports_id = fields.Many2one(comodel_name='x_custom_reports')
