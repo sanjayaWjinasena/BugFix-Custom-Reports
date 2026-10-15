@@ -1,6 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- BugFix-Custom-Reports: Phase E - 10 views for x_custom_reports --><odoo>
-  <data>
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="act_window_3347_jinasena_custom_reports" model="ir.actions.act_window">
+    <field name="name">Jinasena Custom Reports</field>
+    <field name="res_model">x_custom_reports</field>
+    <field name="view_mode">form,calendar,gantt,map,pivot,graph,tree</field>
+  </record>
     <record id="view_8631_default_calendar_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default calendar view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -9,7 +13,6 @@
         <calendar date_start="x_studio_date" create_name_field="x_name"/>
       </field>
     </record>
-
     <record id="view_8629_default_form_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default form view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -63,7 +66,6 @@
 </form>
       </field>
     </record>
-
     <record id="view_8632_default_gantt_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default gantt view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -72,7 +74,6 @@
         <gantt date_start="x_studio_date_start" date_stop="x_studio_date_stop"/>
       </field>
     </record>
-
     <record id="view_8636_default_graph_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default graph view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -84,7 +85,6 @@
 </graph>
       </field>
     </record>
-
     <record id="view_8633_default_kanban_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default kanban view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -138,7 +138,6 @@
 </kanban>
       </field>
     </record>
-
     <record id="view_8628_default_list_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default list view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -156,7 +155,6 @@
 </tree>
       </field>
     </record>
-
     <record id="view_8634_default_map_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default map view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -167,7 +165,6 @@
 </map>
       </field>
     </record>
-
     <record id="view_8635_default_pivot_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default pivot view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -180,7 +177,6 @@
 </pivot>
       </field>
     </record>
-
     <record id="view_8630_default_search_view_for_x_custom_reports_e" model="ir.ui.view">
       <field name="name">Default search view for x_custom_reports</field>
       <field name="model">x_custom_reports</field>
@@ -205,6 +201,18 @@
 </search>
       </field>
     </record>
-
-  </data>
+    <record id="view_final_x_custom_reports_odoo_studio_default_form_view_for_x_custom_reports_customiza" model="ir.ui.view">
+      <field name="name">Odoo Studio: Default form view for x_custom_reports customization</field>
+      <field name="model">x_custom_reports</field>
+      <field name="type">form</field>
+      <field name="priority">99</field>
+      <field name="inherit_id" ref="BugFix-Custom-Reports.view_8629_default_form_view_for_x_custom_reports_e"/>
+      <field name="mode">extension</field>
+      <field name="arch" type="xml">
+        <data>
+  <xpath expr="//field[@name='x_studio_image']" position="replace"/>
+  <xpath expr="//field[@name='x_studio_kanban_state']" position="replace"/>
+</data>
+      </field>
+    </record>
 </odoo>

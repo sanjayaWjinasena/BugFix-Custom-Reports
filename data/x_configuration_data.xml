@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+    <record id="default_235_x_configuration_x_active" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__x_active"/>
+      <field name="json_value">true</field>
+    </record>
+    <record id="default_236_x_configuration_x_studio_sequence" model="ir.default">
+      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__x_studio_sequence"/>
+      <field name="json_value">10</field>
+    </record>
+    </data>
+</odoo>

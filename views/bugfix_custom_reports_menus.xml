@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <menuitem id="menu_f6_jinasena_custom_reports_stages" name="Jinasena Custom Reports Stages" parent="documents.Config" action="BugFix-Custom-Reports.act_window_3348_jinasena_custom_reports_stages"/>
+  <!-- upgrade-testing/VM02 2026-10-12: duplicate of the same Clear-DB menu ported twice; switched off, the other copy is kept -->
+  <menuitem id="menu_f6_configuration" name="Configuration" parent="BugFix-Stock.menu_827_material_management" action="BugFix-Custom-Reports.act_window_1564_configuration" sequence="11" active="False"/>
+  <menuitem id="menu_1728_jinasena_reports" name="Jinasena Reports" sequence="10"/>
+  <menuitem id="menu_1729_jinasena_custom_reports" name="Jinasena Custom Reports" parent="menu_1728_jinasena_reports" sequence="10"/>
+  <menuitem id="menu_1730_configuration" name="Configuration" parent="menu_1728_jinasena_reports" sequence="100"/>
+  <menuitem id="menu_1731_jinasena_custom_reports_stages" name="Jinasena Custom Reports Stages" parent="menu_1730_configuration" sequence="10"/>
+  <menuitem id="menu_1732_jinasena_custom_reports_tags" name="Jinasena Custom Reports Tags" parent="menu_1730_configuration" sequence="10"/>
+  <menuitem id="menu_f6r2_test_app_05_x_configuration" name="x_configuration" parent="BugFix-Studio-Misc.menu_f6r2_test_app_05" action="BugFix-Custom-Reports.act_window_2657_x_configuration" sequence="85"/>
+  <menuitem id="menu_f6r3_jinasena_reports_jinasena_custom_reports" name="Jinasena Custom Reports" parent="BugFix-Studio-Misc.menu_f6r3_jinasena_reports" action="BugFix-Custom-Reports.act_window_3347_jinasena_custom_reports"/>
+  <menuitem id="menu_f6r3_jinasena_reports_configuration_jinasena_custom_reports_stage" name="Jinasena Custom Reports Stages" parent="BugFix-Studio-Misc.menu_f6r3_jinasena_reports_configuration" action="BugFix-Custom-Reports.act_window_3348_jinasena_custom_reports_stages"/>
+</odoo>

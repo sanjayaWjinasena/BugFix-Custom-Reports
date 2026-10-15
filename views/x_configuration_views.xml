@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- BugFix-Custom-Reports: Phase E - 3 views for x_configuration -->
 <odoo>
-  <data>
+  <record id="act_window_1564_configuration" model="ir.actions.act_window">
+    <field name="name">Configuration</field>
+    <field name="res_model">x_configuration</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <record id="act_window_2657_x_configuration" model="ir.actions.act_window">
+    <field name="name">x_configuration</field>
+    <field name="res_model">x_configuration</field>
+    <field name="view_mode">tree,form</field>
+  </record>
     <record id="view_3247_default_form_view_for_x_configuration_e" model="ir.ui.view">
       <field name="name">Default form view for x_configuration</field>
       <field name="model">x_configuration</field>
@@ -30,7 +38,6 @@
 </form>
       </field>
     </record>
-
     <record id="view_3246_default_list_view_for_x_configuration_e" model="ir.ui.view">
       <field name="name">Default list view for x_configuration</field>
       <field name="model">x_configuration</field>
@@ -42,7 +49,6 @@
 </tree>
       </field>
     </record>
-
     <record id="view_3248_default_search_view_for_x_configuration_e" model="ir.ui.view">
       <field name="name">Default search view for x_configuration</field>
       <field name="model">x_configuration</field>
@@ -56,6 +62,4 @@
 </search>
       </field>
     </record>
-
-  </data>
 </odoo>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- BugFix-Custom-Reports: 1 gap record rules -->
 <odoo>
-  <data noupdate="0">
-
     <record id="rule_880_custom_reports_multi_company" model="ir.rule">
       <field name="name">Custom Reports - Multi-Company</field>
       <field name="model_id" ref="BugFix-Custom-Reports.model_x_custom_reports"/>
@@ -13,6 +10,4 @@
       <field name="perm_unlink" eval="True"/>
       <field name="active" eval="True"/>
     </record>
-
-  </data>
 </odoo>
