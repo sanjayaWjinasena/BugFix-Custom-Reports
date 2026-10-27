@@ -1,8 +1,10 @@
 {
-    # upgrade-testing branch: data files below are commented out - this branch installs functions only, no data is seeded.
+    # upgrade-testing branch: data files below are commented out - this branch installs
+    # functions only, no data is seeded.
     "name": "Jinasena : SubModule : Reporting : Custom Reports",
     "version": "17.0.0.0.20",
-    "summary": "Studio custom-reports config models (x_custom_reports, tags, stages, x_configuration)",
+    "summary": "Studio custom-reports config models (x_custom_reports, tags, stages, "
+    "x_configuration)",
     "author": "Jinasena Agricultural Machinery (Pvt) Ltd.",
     "category": "Extra Tools",
     "license": "LGPL-3",
