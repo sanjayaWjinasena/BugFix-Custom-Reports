@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="rule_880_custom_reports_multi_company" model="ir.rule">
+    <record id="rule_custom_reports_multi_company" model="ir.rule">
       <field name="name">Custom Reports - Multi-Company</field>
       <field name="model_id" ref="BugFix-Custom-Reports.model_custom_reports"/>
       <field name="domain_force">['|', ('accounting_company_id', '=', False), ('accounting_company_id', 'in', company_ids)]</field>

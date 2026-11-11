@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <record id="act_window_1564_configuration" model="ir.actions.act_window">
+  <record id="action_configuration" model="ir.actions.act_window">
     <field name="name">Configuration</field>
     <field name="res_model">configuration</field>
     <field name="view_mode">tree,form</field>
   </record>
-  <record id="act_window_2657_configuration" model="ir.actions.act_window">
+  <record id="action_configuration_2" model="ir.actions.act_window">
     <field name="name">configuration</field>
     <field name="res_model">configuration</field>
     <field name="view_mode">tree,form</field>
   </record>
-    <record id="view_3247_default_form_view_for_x_configuration_e" model="ir.ui.view">
+    <record id="view_configuration_form" model="ir.ui.view">
       <field name="name">Default form view for configuration</field>
       <field name="model">configuration</field>
       <field name="type">form</field>
@@ -38,7 +38,7 @@
 </form>
       </field>
     </record>
-    <record id="view_3246_default_list_view_for_x_configuration_e" model="ir.ui.view">
+    <record id="view_configuration_list" model="ir.ui.view">
       <field name="name">Default list view for configuration</field>
       <field name="model">configuration</field>
       <field name="type">tree</field>
@@ -49,7 +49,7 @@
 </tree>
       </field>
     </record>
-    <record id="view_3248_default_search_view_for_x_configuration_e" model="ir.ui.view">
+    <record id="view_configuration_search" model="ir.ui.view">
       <field name="name">Default search view for configuration</field>
       <field name="model">configuration</field>
       <field name="type">search</field>
