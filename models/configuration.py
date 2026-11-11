@@ -2,7 +2,7 @@ from odoo import fields, models
 
 
 class XConfiguration(models.Model):
-    _name = "x_configuration"
+    _name = "configuration"
     _rec_name = "name"  # Clear-DB Studio model: records are named by name
     _inherit = ["mail.activity.mixin"]
     _description = "Configuration"
@@ -13,7 +13,7 @@ class XConfiguration(models.Model):
 
 
 class XConfigurationGap(models.Model):
-    _inherit = "x_configuration"
+    _inherit = "configuration"
     _rec_name = "name"  # Clear-DB Studio model: records are named by name
 
     active = fields.Boolean(string="Active")

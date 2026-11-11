@@ -2,12 +2,12 @@
 <odoo>
   <record id="act_window_3348_jinasena_custom_reports_stages" model="ir.actions.act_window">
     <field name="name">Jinasena Custom Reports Stages</field>
-    <field name="res_model">x_custom_reports_stage</field>
+    <field name="res_model">custom_reports_stage</field>
     <field name="view_mode">tree,form</field>
   </record>
     <record id="view_8641_default_form_view_for_x_custom_reports_stage_e" model="ir.ui.view">
-      <field name="name">Default form view for x_custom_reports_stage</field>
-      <field name="model">x_custom_reports_stage</field>
+      <field name="name">Default form view for custom_reports_stage</field>
+      <field name="model">custom_reports_stage</field>
       <field name="type">form</field>
       <field name="arch" type="xml">
         <form>
@@ -27,8 +27,8 @@
       </field>
     </record>
     <record id="view_8640_default_list_view_for_x_custom_reports_stage_e" model="ir.ui.view">
-      <field name="name">Default list view for x_custom_reports_stage</field>
-      <field name="model">x_custom_reports_stage</field>
+      <field name="name">Default list view for custom_reports_stage</field>
+      <field name="model">custom_reports_stage</field>
       <field name="type">tree</field>
       <field name="arch" type="xml">
         <tree editable="bottom">
@@ -38,8 +38,8 @@
       </field>
     </record>
     <record id="view_8642_default_search_view_for_x_custom_reports_stage_e" model="ir.ui.view">
-      <field name="name">Default search view for x_custom_reports_stage</field>
-      <field name="model">x_custom_reports_stage</field>
+      <field name="name">Default search view for custom_reports_stage</field>
+      <field name="model">custom_reports_stage</field>
       <field name="type">search</field>
       <field name="arch" type="xml">
         <search>

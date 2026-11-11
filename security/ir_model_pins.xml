@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
-  <record id="model_x_custom_reports" model="ir.model"><field name="name">x_custom_reports</field><field name="model">x_custom_reports</field></record>
-  <record id="model_x_custom_reports_stages" model="ir.model"><field name="name">x_custom_reports_stages</field><field name="model">x_custom_reports_stages</field></record>
-  <record id="model_x_custom_reports_tags" model="ir.model"><field name="name">x_custom_reports_tags</field><field name="model">x_custom_reports_tags</field></record>
-  <record id="model_x_configuration" model="ir.model"><field name="name">x_configuration</field><field name="model">x_configuration</field></record>
-  <record id="model_x_custom_reports_stage" model="ir.model"><field name="name">X Custom Reports Stage</field><field name="model">x_custom_reports_stage</field></record>
+  <record id="model_custom_reports" model="ir.model"><field name="name">custom_reports</field><field name="model">custom_reports</field></record>
+  <record id="model_custom_reports_stages" model="ir.model"><field name="name">custom_reports_stages</field><field name="model">custom_reports_stages</field></record>
+  <record id="model_custom_reports_tags" model="ir.model"><field name="name">custom_reports_tags</field><field name="model">custom_reports_tags</field></record>
+  <record id="model_configuration" model="ir.model"><field name="name">configuration</field><field name="model">configuration</field></record>
+  <record id="model_custom_reports_stage" model="ir.model"><field name="name">X Custom Reports Stage</field><field name="model">custom_reports_stage</field></record>
 </odoo>

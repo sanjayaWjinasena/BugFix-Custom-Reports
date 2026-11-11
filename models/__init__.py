@@ -1,7 +1,7 @@
-from . import x_configuration
-from . import x_custom_reports
-from . import x_custom_reports_stage
-from . import x_custom_reports_stages
-from . import x_custom_reports_tags
+from . import configuration
+from . import custom_reports
+from . import custom_reports_stage
+from . import custom_reports_stages
+from . import custom_reports_tags
 
-from . import x_custom_reports_line_c55e7
+from . import custom_reports_line_c55e7

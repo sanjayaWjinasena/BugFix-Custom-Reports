@@ -2,17 +2,17 @@
 <odoo>
   <record id="act_window_1564_configuration" model="ir.actions.act_window">
     <field name="name">Configuration</field>
-    <field name="res_model">x_configuration</field>
+    <field name="res_model">configuration</field>
     <field name="view_mode">tree,form</field>
   </record>
-  <record id="act_window_2657_x_configuration" model="ir.actions.act_window">
-    <field name="name">x_configuration</field>
-    <field name="res_model">x_configuration</field>
+  <record id="act_window_2657_configuration" model="ir.actions.act_window">
+    <field name="name">configuration</field>
+    <field name="res_model">configuration</field>
     <field name="view_mode">tree,form</field>
   </record>
     <record id="view_3247_default_form_view_for_x_configuration_e" model="ir.ui.view">
-      <field name="name">Default form view for x_configuration</field>
-      <field name="model">x_configuration</field>
+      <field name="name">Default form view for configuration</field>
+      <field name="model">configuration</field>
       <field name="type">form</field>
       <field name="arch" type="xml">
         <form>
@@ -31,16 +31,16 @@
     </group>
   </sheet>
   <div class="oe_chatter" name="oe_chatter">
-    <!-- STRIPPED field message_follower_ids not on x_configuration -->
-    <!-- STRIPPED field message_ids not on x_configuration -->
-    <!-- STRIPPED field activity_ids not on x_configuration -->
+    <!-- STRIPPED field message_follower_ids not on configuration -->
+    <!-- STRIPPED field message_ids not on configuration -->
+    <!-- STRIPPED field activity_ids not on configuration -->
   </div>
 </form>
       </field>
     </record>
     <record id="view_3246_default_list_view_for_x_configuration_e" model="ir.ui.view">
-      <field name="name">Default list view for x_configuration</field>
-      <field name="model">x_configuration</field>
+      <field name="name">Default list view for configuration</field>
+      <field name="model">configuration</field>
       <field name="type">tree</field>
       <field name="arch" type="xml">
         <tree>
@@ -50,14 +50,14 @@
       </field>
     </record>
     <record id="view_3248_default_search_view_for_x_configuration_e" model="ir.ui.view">
-      <field name="name">Default search view for x_configuration</field>
-      <field name="model">x_configuration</field>
+      <field name="name">Default search view for configuration</field>
+      <field name="model">configuration</field>
       <field name="type">search</field>
       <field name="arch" type="xml">
         <search>
   <field name="name"/>
   <separator/>
-  <filter string="Archived" name="archived_x_configuration" domain="[['active', '=', False]]"/>
+  <filter string="Archived" name="archived_configuration" domain="[['active', '=', False]]"/>
   <separator/>
 </search>
       </field>

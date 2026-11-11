@@ -2,9 +2,9 @@
     # upgrade-testing branch: data files below are commented out - this branch installs
     # functions only, no data is seeded.
     "name": "Jinasena : SubModule : Reporting : Custom Reports",
-    "version": "17.0.0.0.21",
-    "summary": "Studio custom-reports config models (x_custom_reports, tags, stages, "
-    "x_configuration)",
+    "version": "17.0.0.0.22",
+    "summary": "Studio custom-reports config models (custom_reports, tags, stages, "
+    "configuration)",
     "author": "Jinasena Agricultural Machinery (Pvt) Ltd.",
     "category": "Extra Tools",
     "license": "LGPL-3",
@@ -14,11 +14,11 @@
         "security/ir_model_pins.xml",
         "security/bugfix_custom_reports_security.xml",
         "security/ir.model.access.csv",
-        "data/x_configuration_data.xml",
-        "data/x_custom_reports_data.xml",
-        "views/x_configuration_views.xml",
-        "views/x_custom_reports_stage_views.xml",
-        "views/x_custom_reports_views.xml",
+        "data/configuration_data.xml",
+        "data/custom_reports_data.xml",
+        "views/configuration_views.xml",
+        "views/custom_reports_stage_views.xml",
+        "views/custom_reports_views.xml",
         "views/bugfix_custom_reports_menus.xml",
     ],
     "post_init_hook": "post_init_hook",

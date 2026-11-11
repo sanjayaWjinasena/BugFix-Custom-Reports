@@ -2,11 +2,11 @@
 <odoo>
     <data noupdate="1">
     <record id="default_235_x_configuration_active" model="ir.default">
-      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__active"/>
+      <field name="field_id" ref="BugFix-Custom-Reports.field_configuration__active"/>
       <field name="json_value">true</field>
     </record>
     <record id="default_236_x_configuration_sequence" model="ir.default">
-      <field name="field_id" ref="BugFix-Custom-Reports.field_x_configuration__sequence"/>
+      <field name="field_id" ref="BugFix-Custom-Reports.field_configuration__sequence"/>
       <field name="json_value">10</field>
     </record>
     </data>

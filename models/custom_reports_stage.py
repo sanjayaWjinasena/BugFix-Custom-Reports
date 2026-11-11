@@ -1,10 +1,10 @@
-"""Sentinel declaration for x_custom_reports_stage so cross-references resolve."""
+"""Sentinel declaration for custom_reports_stage so cross-references resolve."""
 
 from odoo import fields, models
 
 
 class XCustomReportsStage(models.Model):
-    _name = "x_custom_reports_stage"
+    _name = "custom_reports_stage"
     _rec_name = "name"  # Clear-DB Studio model: records are named by name
     _description = "Custom Reports Stages"
 
@@ -13,7 +13,7 @@ class XCustomReportsStage(models.Model):
 
 
 class XCustomReportsStageGap(models.Model):
-    _inherit = "x_custom_reports_stage"
+    _inherit = "custom_reports_stage"
     _rec_name = "name"  # Clear-DB Studio model: records are named by name
 
     name = fields.Char(string="Stage Name", required=True)
