@@ -9,7 +9,7 @@ class XCustomReportsStage(models.Model):
     _description = "Custom Reports Stages"
 
     name = fields.Char(string="Stage Name")
-    sequence = fields.Integer(string="Sequence")
+    sequence = fields.Integer()
 
 
 class XCustomReportsStageGap(models.Model):
