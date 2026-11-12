@@ -12,9 +12,9 @@ from odoo import SUPERUSER_ID, api
 _logger = logging.getLogger(__name__)
 
 _FIELD_SELECTIONS = [
-    ("x_custom_reports", "x_studio_kanban_state", "normal", "In Progress", 10),
-    ("x_custom_reports", "x_studio_kanban_state", "done", "Ready", 1),
-    ("x_custom_reports", "x_studio_kanban_state", "blocked", "Blocked", 2),
+    ("custom_reports", "kanban_state", "normal", "In Progress", 10),
+    ("custom_reports", "kanban_state", "done", "Ready", 1),
+    ("custom_reports", "kanban_state", "blocked", "Blocked", 2),
 ]
 
 
