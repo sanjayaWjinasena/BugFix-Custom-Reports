@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BugFix-Custom-Reports: 'Jinasena Reports' menu tree (5 nodes) -->
+<odoo>
+
+  <menuitem id="menu_1728_jinasena_reports" name="Jinasena Reports" sequence="10"/>
+  <menuitem id="menu_1729_jinasena_custom_reports" name="Jinasena Custom Reports" parent="menu_1728_jinasena_reports" sequence="10"/>
+  <menuitem id="menu_1730_configuration" name="Configuration" parent="menu_1728_jinasena_reports" sequence="100"/>
+  <menuitem id="menu_1731_jinasena_custom_reports_stages" name="Jinasena Custom Reports Stages" parent="menu_1730_configuration" sequence="10"/>
+  <menuitem id="menu_1732_jinasena_custom_reports_tags" name="Jinasena Custom Reports Tags" parent="menu_1730_configuration" sequence="10"/>
+
+</odoo>

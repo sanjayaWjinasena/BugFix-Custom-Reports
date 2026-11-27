@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BugFix-Custom-Reports: 4 gap window actions -->
+<odoo>
+
+
+  <record id="act_window_1564_configuration" model="ir.actions.act_window">
+    <field name="name">Configuration</field>
+    <field name="res_model">x_configuration</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="act_window_3347_jinasena_custom_reports" model="ir.actions.act_window">
+    <field name="name">Jinasena Custom Reports</field>
+    <field name="res_model">x_custom_reports</field>
+    <field name="view_mode">form,calendar,gantt,map,pivot,graph,tree</field>
+  </record>
+
+  <record id="act_window_3348_jinasena_custom_reports_stages" model="ir.actions.act_window">
+    <field name="name">Jinasena Custom Reports Stages</field>
+    <field name="res_model">x_custom_reports_stage</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <record id="act_window_2657_x_configuration" model="ir.actions.act_window">
+    <field name="name">x_configuration</field>
+    <field name="res_model">x_configuration</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>
